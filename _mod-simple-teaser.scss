@@ -3,6 +3,11 @@
 	@include prefix(box-sizing, border-box);
 	margin: 20px 0;
 
+	a {
+		display: block;
+		text-decoration: none;
+	}
+
 	img {
 		width: 100%;
 	}
