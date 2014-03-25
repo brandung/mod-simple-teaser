@@ -1,5 +1,31 @@
 /* mod-simple-teaser-wrapper */
 .mod-simple-teaser-wrapper {
-	float: left;
-	margin: 20px;
+	@include prefix(box-sizing, border-box);
+	margin: 20px 0;
+
+	img {
+		width: 100%;
+	}
+
+	/* iPhone 5 (landscape)  */
+	@media only screen and (min-width: 568px) {
+
+	}
+
+	/* iPad (portrait) */
+	@media only screen and (min-width: $breakpoint2) {
+		float: left;
+		width: 50%;
+		padding: 20px;
+
+		img {
+			width: auto;
+		}
+	}
+
+	/* Desktop */
+	@media only screen and (min-width: $breakpoint3) {
+		width: 33.3333333333%;
+	}
+
 }
