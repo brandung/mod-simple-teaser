@@ -9,7 +9,7 @@ Teaser with Headline, Image, Copytext and Link
 ```JavaScript
 <!-- mod: simple teaser -->
 <h2 class="mod-headline">Simple Teaser Module</h2>
-<article class="mod-simple-teaser-wrapper">
+<article class="mod-simple-teaser">
 	<a href="#" title="[HEADLINE]">
 		<header>
 			<h2>[Headline]</h2>
