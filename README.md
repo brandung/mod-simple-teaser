@@ -9,14 +9,16 @@ Teaser with Headline, Image, Copytext and Link
 ```JavaScript
 <!-- mod: simple teaser -->
 <h2 class="mod-headline">Simple Teaser Module</h2>
-<section class="mod-simple-teaser-wrapper">
+<article class="mod-simple-teaser-wrapper">
 	<a href="#" title="[HEADLINE]">
-		<h2>[Headline]</h2>
+		<header>
+			<h2>[Headline]</h2>
+		</header>
 		<img src="http://dummyimage.com/300x100/000/fff.png" alt="[HEADLINE]" />
 		<p>[Copytext]</p>
-		<button class="mod-simple-teaser-link">[LINK)</button>
+		<button class="btn btn-default">[LINK)</button>
 	</a>
-</section>
+</article>
 <hr>
 <!-- // -->
 });
